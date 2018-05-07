@@ -53,8 +53,7 @@ def send_command(url_bypass, payload):
 
 
 if __name__ == "__main__":
-	try:
-		
+	try:		
 		banner()
 		
 		domain = sys.argv[1]
