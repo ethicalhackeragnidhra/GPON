@@ -7,7 +7,7 @@ At the time it was written almost ONE MILLION of these devices are exposed to th
 
 
 ## Dependencies required
-`request`
+`requests`
 
 `urllib2`
 
