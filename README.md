@@ -1,5 +1,14 @@
 # RCE on GPON home routers (CVE-2018-10561)
 
+## Press
+[The Hacker News](https://thehackernews.com/2018/05/protect-router-hacking.html)
+
+[KitPloit](https://www.kitploit.com/2018/05/gpon-python-exploit-for-remote-code.html)
+
+[Security Affairs](https://securityaffairs.co/wordpress/71987/hacking/gpon-home-routers-hack.html)
+
+
+
 ## Vulnerability
 Many routers today use GPON internet, and  a way to bypass all authentication on the devices (**CVE-2018-10561**) was found by [VPNMentor](https://www.vpnmentor.com/blog/critical-vulnerability-gpon-router/). With this authentication bypass, it's also possible to unveil another command injection vulnerability (**CVE-2018-10562**) and execute commands on the device.
 
