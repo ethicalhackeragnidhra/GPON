@@ -1,7 +1,9 @@
 # RCE on GPON home routers (CVE-2018-10561)
 
 ## Press
-[The Hacker News](https://thehackernews.com/2018/05/protect-router-hacking.html)
+[The Hacker News - 1](https://thehackernews.com/2018/05/protect-router-hacking.html) 
+
+[The Hacker News - 2](https://thehackernews.com/2018/05/botnet-malware-hacking.html)
 
 [KitPloit](https://www.kitploit.com/2018/05/gpon-python-exploit-for-remote-code.html)
 
